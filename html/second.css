@@ -1,0 +1,37 @@
+/* external css */
+*{
+    /* universal selector */
+    margin: 0;
+    padding: 0;
+}
+
+#unique{
+    text-decoration: line-through;
+    font-size: 3rem;
+    color: crimson;
+}
+
+div{
+    border: 2px solid red;
+    width:100vw;
+    height: 50vh;
+    /* font-size: 3em; */
+}
+
+div p{
+    color: blueviolet;
+    font-size: 2em;
+}
+
+.seconddiv{
+    border: 2px solid rgba(28, 191, 72, 0.377);
+    width: 50%;
+    /* font-size: 3rem; */
+}
+
+.seconddiv p{
+    color: blueviolet;
+    font-size: 2rem;
+    /* 1em = 16px
+    1rem = 16px */
+}

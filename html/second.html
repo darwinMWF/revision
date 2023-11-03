@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        /* internal */
+
+        /* selector */
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: red;
+        }
+
+        /* id selector */
+        #secondheading{
+            color: green;
+        }
+        /* #fourth,#thisd{
+            color: orange;
+        } */
+
+        /* #thisd{
+            color: orange;
+        } */
+
+        /* class selctor */
+        .clrHeading{
+            color: orange;
+        }
+
+        /* attribute selector */
+        img{
+            border-radius: 50%;
+        }
+
+        img[src="../assets/img.png"]{
+            width: 100px;
+        }
+        img[alt="second"]{
+            width: 100px;
+        }
+        
+        a[href]{
+            text-decoration: none;
+            font-size: 2rem;
+            color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="./second.css">
+</head>
+<body>
+    <!-- inline style -->
+    <p style="text-transform: capitalize;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque fugit nemo ipsam ex id totam, maiores similique! Similique cupiditate molestias, harum delectus beatae dolorem neque dolor repellendus commodi quas! Autem!</p>
+    <h1 style="font-size:2rem">hello css</h1>
+    <h1>hello javscript</h1>
+    <h1 id="secondheading">hello javscript</h1>
+    <h1 id="thisd" class="clrHeading">hello javscript</h1>
+    <h1 id="fourth" class="clrHeading">hello javscript</h1>
+    <img src="../assets/img.png" alt="">
+    <img src="../assets/img-2.png" alt="second">
+    <a href="">link</a>
+    <a id="unique">amazon</a>
+
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus possimus earum obcaecati vel modi optio quod libero, ipsam ut, quae quas expedita a architecto nostrum cupiditate iusto, esse repellat provident?
+        </p>
+    </div>
+    <div class="seconddiv">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus possimus earum obcaecati vel modi optio quod libero, ipsam ut, quae quas expedita a architecto nostrum cupiditate iusto, esse repellat provident?
+        </p>
+    </div>
+</body>
+</html>
